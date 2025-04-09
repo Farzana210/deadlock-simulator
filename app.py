@@ -73,3 +73,11 @@ if st.button("🚦 Run"):
 
     except Exception as e:
         st.error(f"⚠️ Error: {e}")
+
+st.markdown("---")  # Adds a horizontal line
+st.markdown(
+    "<div style='text-align: center; font-size: 16px; color: #888;'>"
+    "💡 Developed by © <b>Syeda Farzana Sultana</b>"
+    "</div>",
+    unsafe_allow_html=True
+)
